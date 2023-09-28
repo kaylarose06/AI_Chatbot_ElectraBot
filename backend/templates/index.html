@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ElectraBot | Home</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='images/logo.png')}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='../static/style.css')}}" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- page setup -->
+    <div class="page">
+      <div class="title">
+        <div class="d-flex flex-column justify-content-center w-100 h-100">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          ></div>
+        </div>
+      </div>
+
+      <!-- main title  -->
+      <div class="waviy">
+        <span style="--i: 1">E</span>
+        <span style="--i: 2">l</span>
+        <span style="--i: 3">e</span>
+        <span style="--i: 4">C</span>
+        <span style="--i: 5">T</span>
+        <span style="--i: 6">R</span>
+        <span style="--i: 7">A</span>
+        <span style="--i: 8">B</span>
+        <span style="--i: 9">O</span>
+        <span style="--i: 10">T</span>
+      </div>
+
+      <!-- start button  -->
+      <center>
+        <button class="button" onclick="window.open('/login', '_self')">
+          <span>START</span>
+        </button>
+      </center>
+    </div>
+
+    <img src="static/logo.png" alt="logo" style="width: 40px; height: 40px" />
+
+    <!-- copyright -->
+    <div class="footer">
+      &copy; 2023 Union College of Union County NJ. All rights reserved.
+    </div>
+  </body>
+</html>

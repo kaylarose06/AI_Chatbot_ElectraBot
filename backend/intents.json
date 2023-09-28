@@ -1,0 +1,353 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Joke",
+        "Make me laugh"
+      ],
+      "responses": [
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ],
+      "context": [
+        "jokes"
+      ]
+    },
+    {
+      "tag": "google",
+      "patterns": [
+        "google",
+        "search",
+        "internet"
+      ],
+      "responses": [
+        "Redirecting to Google..."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        " ",
+        ""
+      ],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are limited.",
+        "I can chat with you. Try asking me for jokes or riddles!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Identity",
+      "patterns": [
+        "Who are you",
+        "what are you"
+      ],
+      "responses": [
+        "I am Electrabot, a Deep-Learning chatbot"
+      ]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+        "Whats up",
+        "Wazzup",
+        "How are you",
+        "sup",
+        "How you doing"
+      ],
+      "responses": [
+        "All good..What about you?"
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+        "haha",
+        "lol",
+        "rofl",
+        "lmao",
+        "thats funny"
+      ],
+      "responses": [
+        "Glad I could make you laugh !"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are dumb",
+        "shut up",
+        "idiot"
+      ],
+      "responses": [
+        "Well that hurts :("
+      ]
+    },
+    {
+      "tag": "activity",
+      "patterns": [
+        "what are you doing",
+        "what are you upto"
+      ],
+      "responses": [
+        "Talking to you, of course!"
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+      ],
+      "responses": [
+        "Yeah!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "temperature",
+        "weather",
+        "how hot is it"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": [
+        "Thank you!"
+      ]
+    },
+    {
+      "tag": "nicetty",
+      "patterns": [
+        "it was nice talking to you",
+        "good talk"
+      ],
+      "responses": [
+        "It was nice talking to you as well! Come back soon!"
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": [
+        "no",
+        "nope"
+      ],
+      "responses": [
+        "ok"
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": [
+        "Ask me a riddle",
+        "Ask me a question",
+        "Riddle"
+      ],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "when were you made",
+        "what is your age"
+      ],
+      "responses": [
+        "I was made in 2023, if that's what you are asking!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "temperature",
+        "weather",
+        "how hot is it"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "academics",
+      "patterns": [
+        "Can you tell me more about the degree programs offered at Union College?",
+        "Can you explain the difference between the Associate in Arts (AA) and Associate in Science (AS) degrees",
+        "How can I transfer from a two-year program at Union College to a four-year institution",
+        "What options are available for students who complete the Associate in Applied Science (AAS) degree or a Certificate/Diploma",
+        "Are there any specific requirements to enroll in the Associate in Applied Science (AAS) degree program",
+        "Can you provide information about the faculty at Union College",
+        "What types of courses and programs are available in the Associate in Arts (AA) degree program",
+        "Is financial aid available for students at Union College",
+        "How can I contact Union College for more information",
+        "programs in ucc",
+        "what does ucc offer",
+        "programs offered at ucc"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "application process",
+        "ucc application process",
+        "How do I start the application process",
+        "How do I start the application process for Union College of Union County",
+        "What are the admission requirements for Union College of Union County",
+        "Can you tell me the application deadlines for the upcoming semester at Union College?",
+        "Are there any specific scholarships or financial aid options available for applicants?",
+        "What documents do I need to submit along with my application?"
+      ]
+    },
+    {
+      "tag": "apply",
+      "patterns": [
+        "How to apply to ucc",
+        "How do I start my application",
+        "application guide",
+        "Where can I finde guidlines to apply",
+        "addmission process",
+        "What is the admissions process",
+        "How is the admissions process",
+        "what are the requirements?",
+        "requirements to apply to ucc",
+        "What are the requirements to apply to union college of union county",
+        "What are the requirements to apply",
+        "Who needs to submit the application",
+        "Is there an application to submit?",
+        "application",
+        "How to apply",
+        "ucc application",
+        "I want to apply to ucc",
+        "How do I apply to ucc?",
+        "I am a highchool student",
+        "I am a transfer student",
+        "I am an international student",
+        "I am a visisting student"        
+      ],
+      "responses":[
+        "Its as simple as submitting and online application, head over to 'https://www.ucc.edu/admissions/apply/' to get more information.",
+        "Every one needs to submit our online application ( 'https://www.ucc.edu/admissions/apply/' ).",
+        "Go to 'https://www.ucc.edu/admissions/apply/' and view the enrollment steps for detailed instructions for your student type by clicking on the type of student that best describes you."
+      ]
+    },
+    {
+      "tag": "financial aid",
+      "patterns": [
+       "financial aid process at ucc?",
+       "Is there fianncial aid at Unino College of Union County?",
+       "What is the financial aid like?",
+       "Is there financial aid?",
+       "fiancial aid",
+       "financial aid process",
+       "Hw do I apply for financial aid?",
+       "How can I apply for financial aid",
+       "I want to apply for financial aid",
+       "How do I apply for aid",
+       "How do I apply for financial aid"
+      ],
+      "responses": [
+        "Students Must Submit the Free Application for Federal Student Aid (FAFSA). Our college's school code is 002643. If you have already competed your FAFSA for this year, simply add our school code so we receive it.). You must re-apply for financial aid each year. ",
+        "You must first submit your FAFSA. Our college's school code is 002643. For more information go to 'https://www.ucc.edu/admissions/paying-for-college/' "
+      ]
+    }
+  ]
+}
