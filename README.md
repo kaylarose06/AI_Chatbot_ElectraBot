@@ -4,6 +4,8 @@ Ai Chat bot with Python.
 This project is a conversational AI chatbot with web-scraping/summary features. 
 Inside the backend folder is where the magic happens, all the ai logic and web-scraping is in there.
 
+Created in collaboration with Brandon Kaplun, Daniel Ivanov, Maria Arias Miranda, Karen Lazo, Ricardo Rodriguez at Union College of Union County NJ. 
+
 Built with:
  Python - AI logic  
  Flask - Backend  
